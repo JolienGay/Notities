@@ -1,0 +1,38 @@
+---
+title: "Pythagoras"
+author: "Jolien Gay"
+date: "`r Sys.Date()`"
+export:
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+![Figure 1: Pythagoras.](Pythagoras.png)
+
+## Pythagoras Info
+
+The pythagoras' theorem (of Pythagorean theorem) is the relationship among the three sides of a right-angled triangle. It states that the sum of the squares of the two smallest sides (in our case called a and b) is equal to the square of the largest side (the side positioned on the opposite of the right angle, which we call c).
+
+## Graphical representation
+
+TODO: ask if it is possible to enter a picture of a triange in here to demonstrate 
+the function graphically.
+
+## Example
+
+```{r}
+# The function:
+Pythagoras <- function(a , b) {
+  c <- sqrt(a^2 + b^2)
+  c
+}
+
+# Side a has a length of 5, side b has a length of 7; put the numbers in the function to compute the length of c.
+Pythagoras(5, 7)
+
+```
+
+
