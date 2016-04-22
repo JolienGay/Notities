@@ -1,0 +1,14 @@
+Package: Sandboxy
+Type: Package
+Title: Finding Primes
+Version: 0.1.0
+Authors@R: person("Femke", "Thon", email = "femke_thon@hotmail.com", role = c("aut", "cre"))
+Description: This package contains a nice little function that finds the primes in a function
+License: GPL-3
+LazyData: TRUE
+Suggests: testthat,
+    knitr,
+    rmarkdown,
+    lintr
+VignetteBuilder: knitr
+RoxygenNote:5.0.1
