@@ -1,0 +1,24 @@
+
+# Eerst repository aanmaken op github zelf (klik R aan bij add Giftignore en GNU GPL3 licence (vakje ernaast))
+
+# Voeg hier je accountnaam en de naam van het vers gemaakt mapje op GitHub
+git clone https://github.com/JolienGay/Pythagoras-function
+
+# Zet je working directory op het cloned mapje
+cd Pythagoras-function/
+
+# Check wat er in het mapje zit (als het goed is niets behalve een Readme file van op GitHub zelf)
+ls
+
+# Ga nu naar je cloned mapje (bij mij was dat in c:/Users/Aline, de default plek denk ik?)
+# Voeg hier de contents van je package toe 
+(# BELANGRIJK: skip de .gitignore (eerst kopierde ik hem eroverheen en toen wou het maar niet werken, gewoon skippen die zooi!!))
+
+Vervolgens: 
+git add --all :/
+git commit -m "OMG Pythagoras leeft!"
+git push
+
+
+cd .. (mapje terug)
+cd ~/Documents/........ (~=home folder of user folder ofzo)
