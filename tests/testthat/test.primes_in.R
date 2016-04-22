@@ -9,7 +9,8 @@ test_that("The function gives good output", {
 
 
 test_that("Error messages work properly", {
-  expect_error(primes_in(35, 30), c('Error, the first number should be lower than the second.'))
-  expect_error(primes_in(31.2, 50), c("This doesn't work. Numbers should be integers."))
+  expect_error(primes_in(35, 30),
+               c("Error, the first number should be lower than the second."))
+  expect_error(primes_in(31.2, 50),
+               c("This doesn't work. Numbers should be integers."))
 })
-

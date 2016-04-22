@@ -7,9 +7,9 @@
 primes_in(x, y)
 }
 \arguments{
-\item{X}{a positive integer (or 0)}
+\item{x}{a positive integer (or 0)}
 
-\item{Y}{a positive integer, higher than or equal to X.}
+\item{y}{a positive integer, higher than or equal to X.}
 }
 \value{
 a list of the primes that are found between (and including) numbers X to Y.
