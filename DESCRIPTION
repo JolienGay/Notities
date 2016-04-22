@@ -1,6 +1,6 @@
-Package: Sandboxy
+Package: Notities
 Type: Package
-Title: Finding Primes
+Title: Finding Primes & the Pythagoran theorem.
 Version: 0.1.0
 Authors@R: person("Femke", "Thon", email = "femke_thon@hotmail.com", role = c("aut", "cre"))
 Description: This package contains a nice little function that finds the primes in a function
