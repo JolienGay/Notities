@@ -9,7 +9,7 @@
 
 primes_in <- function(x, y){
   # Checking wheter the input is all right.
-  if ( (round(x) != x ) || ( round(y) != y)){
+  if ( (round(x) != x ) | ( round(y) != y)){
     stop("This doesn't work. Numbers should be integers.")
   }
   if (y < x){
