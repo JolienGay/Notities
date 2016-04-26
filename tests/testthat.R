@@ -1,4 +1,4 @@
 library(testthat)
 library(Sandboxy)
 
-test_check("Sandboxy")
+test_check()

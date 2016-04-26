@@ -13,7 +13,7 @@
 
 ##'FUNCTION:
 Pythagoras <- function(a, b){
-  if ((class(a) == character) | (class(b) == character)){
+  if ( (class(a) == character) | (class(b) == character)){
     stop("Pythagoras: must have two values for arguments")
   }
   c <- sqrt( a ^ 2 + b ^ 2)
