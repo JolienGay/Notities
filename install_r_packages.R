@@ -9,3 +9,13 @@ install.packages("rmarkdown", repos = "http://cran.uk.r-project.org")
 install.packages("testit", repos = "http://cran.uk.r-project.org")
 install.packages("testthat", repos = "http://cran.uk.r-project.org")
 install.packages("TreeSim", repos = "http://cran.uk.r-project.org")
+<<<<<<< HEAD
+=======
+install.packages("adephylo", repos = "http://cran.uk.r-project.org")
+install.packages("data.table", repos = "http://cran.uk.r-project.org")
+install.packages("phangorn", repos = "http://cran.uk.r-project.org")
+install.packages("XML", repos = "http://cran.uk.r-project.org")
+devtools::install_github("richelbilderbeek/beastscriptr")
+devtools::install_github("richelbilderbeek/rBEAST")
+devtools::install_github("richelbilderbeek/ribir")
+>>>>>>> 249bf51fe95e64dd72d633c4790a22aea972a6f2
